@@ -150,7 +150,7 @@ export default function App() {
       setAreaResult({
         covered: false,
         name: searchQuery,
-        message: `We often accommodate properties just outside standard routes. Call us directly at (903) 555-0198 to confirm your address!`
+        message: `We often accommodate properties just outside standard routes. Call us directly at (903) 702-9586 to confirm your address!`
       })
     }
   }
@@ -210,11 +210,11 @@ export default function App() {
           </div>
           <div className="flex items-center gap-4">
             <a 
-              href="tel:9035550198" 
+              href="tel:9037029586" 
               className="flex items-center gap-1.5 font-bold text-emerald-400 hover:text-emerald-300 transition-colors"
             >
               <PhoneCall className="w-3.5 h-3.5" />
-              <span>(903) 555-0198</span>
+              <span>(903) 702-9586</span>
             </a>
             <span className="hidden md:inline text-forest-600">|</span>
             <span className="hidden md:inline text-stone-300">Mon - Sat: 7:00 AM - 6:00 PM</span>
@@ -272,11 +272,11 @@ export default function App() {
           {/* Direct CTA on Desktop */}
           <div className="hidden lg:flex items-center gap-3">
             <a 
-              href="tel:9035550198"
+              href="tel:9037029586"
               className="flex items-center gap-2 text-forest-900 font-bold px-3 py-2 rounded-lg hover:bg-forest-50 transition-colors text-sm"
             >
               <Phone className="w-4 h-4 text-forest-700" />
-              <span>(903) 555-0198</span>
+              <span>(903) 702-9586</span>
             </a>
             <button 
               onClick={() => scrollToSection('quote-form')}
@@ -290,7 +290,7 @@ export default function App() {
           {/* Mobile Hamburger Button */}
           <div className="lg:hidden flex items-center gap-2">
             <a 
-              href="tel:9035550198"
+              href="tel:9037029586"
               aria-label="Call Layton Lawn Service"
               className="bg-forest-50 text-forest-800 p-2.5 rounded-lg border border-forest-200"
             >
@@ -356,11 +356,11 @@ export default function App() {
                 Request Free Estimate
               </button>
               <a 
-                href="tel:9035550198" 
+                href="tel:9037029586" 
                 className="w-full bg-stone-100 text-forest-950 font-bold py-3 rounded-lg text-center flex items-center justify-center gap-2 border border-stone-300"
               >
                 <Phone className="w-4 h-4 text-forest-700" />
-                Call (903) 555-0198
+                Call (903) 702-9586
               </a>
             </div>
           </div>
@@ -425,11 +425,11 @@ export default function App() {
                   <span>Get A Free Fast Estimate</span>
                 </button>
                 <a 
-                  href="tel:9035550198"
+                  href="tel:9037029586"
                   className="w-full sm:w-auto bg-forest-900/90 hover:bg-forest-800 text-white font-bold text-base px-7 py-4 rounded-xl border border-forest-600 transition-all flex items-center justify-center gap-3"
                 >
                   <Phone className="w-5 h-5 text-emerald-400" />
-                  <span>Call (903) 555-0198</span>
+                  <span>Call (903) 702-9586</span>
                 </a>
               </div>
 
@@ -484,7 +484,7 @@ export default function App() {
                       Layton Lawn Service has received your details. We will review your property and reach out by phone or email shortly!
                     </p>
                     <p className="text-xs text-forest-800 font-semibold">
-                      Need immediate assistance? Call <a href="tel:9035550198" className="underline font-bold">(903) 555-0198</a>
+                      Need immediate assistance? Call <a href="tel:9037029586" className="underline font-bold">(903) 702-9586</a>
                     </p>
                     <button 
                       onClick={() => setFormSubmitted(false)}
@@ -729,11 +729,11 @@ export default function App() {
                       <ArrowRight className="w-4 h-4" />
                     </button>
                     <a 
-                      href="tel:9035550198" 
+                      href="tel:9037029586" 
                       className="text-forest-900 font-bold text-sm flex items-center gap-2 hover:underline"
                     >
                       <Phone className="w-4 h-4 text-forest-700" />
-                      <span>Call (903) 555-0198</span>
+                      <span>Call (903) 702-9586</span>
                     </a>
                   </div>
                 </div>
@@ -1674,8 +1674,8 @@ export default function App() {
                   </div>
                   <div>
                     <div className="text-xs uppercase font-bold text-stone-400">Call or Text Directly</div>
-                    <a href="tel:9035550198" className="text-lg font-black text-white hover:text-emerald-400 transition-colors">
-                      (903) 555-0198
+                    <a href="tel:9037029586" className="text-lg font-black text-white hover:text-emerald-400 transition-colors">
+                      (903) 702-9586
                     </a>
                   </div>
                 </div>
@@ -1745,7 +1745,7 @@ export default function App() {
                       Thank you for contacting Layton Lawn Service. We are reviewing your property details and will get back to you promptly with pricing and availability.
                     </p>
                     <div className="bg-stone-50 p-4 rounded-xl border border-stone-200 text-xs text-stone-700 max-w-sm mx-auto">
-                      Need a same-day answer? Call us at <a href="tel:9035550198" className="font-bold text-forest-700 hover:underline">(903) 555-0198</a>
+                      Need a same-day answer? Call us at <a href="tel:9037029586" className="font-bold text-forest-700 hover:underline">(903) 702-9586</a>
                     </div>
                     <button 
                       onClick={() => setFormSubmitted(false)}
@@ -1946,11 +1946,11 @@ export default function App() {
             <p className="text-stone-600 text-xs mt-1">Our owner and crew leaders are happy to discuss custom arrangements.</p>
             <div className="mt-4 flex items-center justify-center gap-3">
               <a 
-                href="tel:9035550198" 
+                href="tel:9037029586" 
                 className="bg-forest-700 hover:bg-forest-800 text-white font-bold text-xs px-5 py-2.5 rounded-lg flex items-center gap-2"
               >
                 <Phone className="w-3.5 h-3.5" />
-                Call (903) 555-0198
+                Call (903) 702-9586
               </a>
               <button 
                 onClick={() => scrollToSection('quote-form')}
@@ -2042,8 +2042,8 @@ export default function App() {
               <div className="space-y-3 text-xs">
                 <div>
                   <div className="text-stone-400">Phone:</div>
-                  <a href="tel:9035550198" className="text-white font-bold hover:text-emerald-400 text-sm">
-                    (903) 555-0198
+                  <a href="tel:9037029586" className="text-white font-bold hover:text-emerald-400 text-sm">
+                    (903) 702-9586
                   </a>
                 </div>
                 <div>
@@ -2080,11 +2080,11 @@ export default function App() {
       {/* Floating Bottom Quick-Action Bar on Mobile */}
       <div className="lg:hidden fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-stone-200 p-3 z-40 shadow-2xl flex items-center gap-3">
         <a 
-          href="tel:9035550198"
+          href="tel:9037029586"
           className="flex-1 bg-stone-100 hover:bg-stone-200 text-forest-950 font-bold text-xs py-3 rounded-xl border border-stone-300 flex items-center justify-center gap-2 text-center"
         >
           <Phone className="w-4 h-4 text-forest-700" />
-          <span>Call (903) 555-0198</span>
+          <span>Call (903) 702-9586</span>
         </a>
         <button 
           onClick={() => scrollToSection('quote-form')}
