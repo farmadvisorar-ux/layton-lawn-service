@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+/* Custom styling for slider and animations */
+.hero-gradient {
+  background: linear-gradient(135deg, rgba(12, 35, 21, 0.92) 0%, rgba(27, 65, 41, 0.85) 60%, rgba(34, 79, 48, 0.75) 100%);
+}
+
+.text-shadow {
+  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+}
